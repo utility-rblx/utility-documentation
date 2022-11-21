@@ -77,5 +77,5 @@ local Utility = require( game:GetService('Utility') )
 
 local DiscordWebhooks = Utility:GetSubService('Http', 'DiscordWebhooks')
 
--- Code here --
+-- Do something wit the webhooks --
 ```
