@@ -1,11 +1,14 @@
+# Site Information
 site_name: Utilities Documents
 site_url: https://utility-rblx.github.io/utility-documentation/
 site_author: metamethods#0774 | InvalidData#0001
 site_description: Make your life much easier with this roblox module.
 
+# Repo Information
 repo_name: utility-rblx
 repo_url: https://github.com/utility-rblx/utility-documentation
 
+# Themes
 theme:
   name: material
 
@@ -25,12 +28,7 @@ theme:
   font:
     code: Consolas
 
-extra:
-  generator: false
-
-extra_css:
-  - stylesheets/extra.css
-
+# Extensions
 markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
@@ -57,5 +55,26 @@ markdown_extensions:
   - pymdownx.tilde
   - pymdownx.details
 
-  
-  
+# Extra
+extra:
+  generator: false
+
+extra_css:
+  - stylesheets/extra.css
+
+# Documentation Layout
+nav:
+    - Introduction: index.md
+    - Licence: licence.md
+    - Credits: credits.md
+    - TODO: todo.md
+
+    - Services:
+        - services/introduction.md
+        - services/http-service.md
+    
+    - Sub Services:
+        - sub-services/introduction.md
+        - Http Module:
+          - sub-services/http-module/discord-webhook.md
+        

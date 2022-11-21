@@ -24,7 +24,7 @@ This is represented by a 32 hexadecimal (base 16) digits. They are displayed in
 |||
 |<b>wrapped<sub style='color: #1589F0'>boolean</sub>|</b> Whether the returned string should be wrapped in ___{curly braces}___|
 
-|__Returns__|__Definition__|
+|__Return(s)__|__Definition__|
 |||
 |<b style='color: #1589F0'>string</b>|The randomly generated UUIID.|
 
@@ -50,7 +50,7 @@ The Encode function will convert your luau table into a `JSON object` or an `arr
 |||
 |<b>json_string<sub style='color: #1589F0'>string</sub></b>|Your JSON string.|
 
-|__Returns__|__Definition__|
+|__Return(s)__|__Definition__|
 |||
 |<b style='color: #1589F0'>Variant</b>|The returned luau table.|
 
@@ -70,7 +70,7 @@ The UrlEncode function will make sure that the reserved characters in the string
 |||
 |<b>data<sub style='color: #1589F0'>string</sub></b>|The string `(URL)` to encode.|
 
-|__Returns__|__Definition__|
+|__Return(s)__|__Definition__|
 |||
 |<b style='color: #1589F0'>string</b>|The properly encoded string.|
 
@@ -94,7 +94,7 @@ The Encode function will convert your `JSON object` or an `array` table into a l
 |||
 |<b>json_string<sub style='color: #1589F0'>string</sub></b>|Your JSON string.|
 
-|__Returns__|__Definition__|
+|__Return(s)__|__Definition__|
 |||
 |<b style='color: #1589F0'>Variant</b>|The returned luau table.|
 
@@ -114,7 +114,7 @@ The UrlEncodeList will convert your list into a properly encoded. Same functiona
 |||
 |<b>data<sub style='color: #1589F0'>Variant</sub></b>|The luau list to be encoded.|
 
-|__Returns__|__Definition__|
+|__Return(s)__|__Definition__|
 |||
 |<b style='color: #1589F0'>string</b>|The properly encoded luau list.|
 
@@ -133,7 +133,7 @@ print(Encoded) --> Expected output: 1=Hello&Lua=World%21
 ---
 ## Http
 ### __Constructers__
-`new()` Returns a `New Request` object.
+`new()` Return(s) a `New Request` object.
 
 |__Parameter(s)__|__Data__|
 |||
@@ -169,7 +169,7 @@ The `GetAsync` will send out a HTTP GET request. This does all of the heavy lift
 |<b>nocache<sub style='color: #1589F0'>boolean</sub></b>|Weather if you want the request to cache the response. _Defualt value: false_|
 |<b>headers<sub style='color: #1589F0'>Variant</sub></b>|Used to specify HTTP request headers.|
 
-|__Returns__|__Definition__|
+|__Return(s)__|__Definition__|
 |||
 |<b style='color: #1589F0'>Variant</b>|GET request's response data.|
 
@@ -193,7 +193,7 @@ The `PostAsync` will send out a HTTP POST request. Very similar to `GetAsync`
 |<b>compress<sub style='color: #1589F0'>boolean</sub></b>|Determines whether the data is compressed (gzipped) when sent. _Defualt value: false_|
 |<b>headers<sub style='color: #1589F0'>Variant</sub></b>|Used to specify HTTP request headers.|
 
-|__Returns__|__Definition__|
+|__Return(s)__|__Definition__|
 |||
 |<b style='color: #1589F0'>Variant</b>|POST request's request result.|
 
@@ -217,7 +217,7 @@ This will send a `GetAsync` request to the URL, and decodes it right after. Very
 
 <b style='color: #8B8000'>Inherits the same parameters from GetAsync</b>
 
-|__Returns__|__Definition__|
+|__Return(s)__|__Definition__|
 |||
 |<b style='color: #1589F0'>Variant</b>|A luau list returned from a API request.|
 
@@ -238,7 +238,7 @@ Sends a `PostAsync` request with the data provided. Automatically URL converts t
 |||
 |<b>data<sub style='color: #1589F0'>Variant</sub></b>|A luau list to be POSTED to that URL. <b style='color: #8B8000'>Already encodes the data.</b>|
 
-|__Returns__|__Definition__|
+|__Return(s)__|__Definition__|
 |||
 |<b style='color: #1589F0'>Variant</b>|Exact data returned from a `PostAsync` request.|
 
@@ -265,7 +265,7 @@ Sends a `PostAsync` request with the data provided. Automatically JSON converts 
 |||
 |<b>data<sub style='color: #1589F0'>Variant</sub></b>|A luau list to be POSTED to that URL. <b style='color: #8B8000'>(This already encodes the data.)</b>|
 
-|__Returns__|__Definition__|
+|__Return(s)__|__Definition__|
 |||
 |<b style='color: #1589F0'>Variant</b>|Exact data returned from a `PostAsync` request.|
 
