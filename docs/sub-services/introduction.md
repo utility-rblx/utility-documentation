@@ -1,4 +1,4 @@
-# Introduction
+# Introduction to Sub-Services
 
 A sub service is a service that uses that certain service you chose to get/use but used in a different way. Such as a Http sub service, the discord webhook one. It uses the Http module, but instead of it making you do the http stuff, it does it for you. Or, think of it this way...
 

@@ -72,6 +72,7 @@ nav:
     - Services:
         - services/introduction.md
         - services/http-service.md
+        - services/debounce-service.md
     
     - Sub Services:
         - sub-services/introduction.md

@@ -11,7 +11,7 @@ A whole list of things that needs to be done sooner or later...
     * [ ] Discord Webhooks
     * [ ] Reddit API
 - [ ] Datastore Service
-- [ ] Debounce Service
+- [x] Debounce Service
 
 ### Services
 
@@ -19,4 +19,4 @@ A whole list of things that needs to be done sooner or later...
     * [ ] Discord Webhooks
     * [ ] Reddit API
 - [ ] Datastore Service
-- [ ] Debounce Service
+- [x] Debounce Service
