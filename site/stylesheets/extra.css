@@ -29,3 +29,29 @@
   --md-code-hl-punctuation-color:    rgb(168, 168, 168);
   --md-code-hl-comment-color:        rgb(150, 150, 150);
 }
+
+.redBox {
+  padding: 5px;
+
+  background-color: rgb(255, 87, 87);
+
+  font-weight: bold;
+
+  text-align: center;
+  text-shadow: rgb(139, 0, 0) 0px 0 5px;
+
+  color: rgb(255, 255, 255);
+}
+
+.orangeBox {
+  padding: 5px;
+
+  background-color: rgb(255, 182, 87);
+
+  font-weight: bold;
+
+  text-align: center;
+  text-shadow: rgb(139, 102, 0) 0px 0 5px;
+
+  color: rgb(255, 255, 255);
+}
