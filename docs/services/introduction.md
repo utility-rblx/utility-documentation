@@ -1,9 +1,13 @@
 # Introduction to Services
 
+put something here lol
+
+# Utility Module
+
 [TOC]
 
 <div class='grid' style='grid-template-columns: 100%'>
-  <div class='greenBox'>Both client and server side</div>
+  <div class='greenBox'>Both client and server sided</div>
 </div>
 
 ---
