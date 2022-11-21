@@ -1,27 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>None</loc>
+         <loc>https://utility-rblx.github.io/utility-documentation/</loc>
          <lastmod>2022-11-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>None</loc>
+         <loc>https://utility-rblx.github.io/utility-documentation/credits/</loc>
          <lastmod>2022-11-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>None</loc>
+         <loc>https://utility-rblx.github.io/utility-documentation/licence/</loc>
          <lastmod>2022-11-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>None</loc>
+         <loc>https://utility-rblx.github.io/utility-documentation/todo/</loc>
          <lastmod>2022-11-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>None</loc>
+         <loc>https://utility-rblx.github.io/utility-documentation/services/http-service/</loc>
+         <lastmod>2022-11-21</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://utility-rblx.github.io/utility-documentation/sub-services/introduction/</loc>
+         <lastmod>2022-11-21</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://utility-rblx.github.io/utility-documentation/sub-services/http-module/discord-webhook/</loc>
          <lastmod>2022-11-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
