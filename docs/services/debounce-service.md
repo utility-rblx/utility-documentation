@@ -3,9 +3,10 @@
 [TOC]
 
 <div class='grid' style='grid-template-columns: 100%'>
-  <div class='greenBox'>Both client and server side</div>
+  <div class='greenBox'>Both client and server sided</div>
 </div>
 
+---
 ## Debounce
 ### __Constructors__
 `new()` returns a `New Debounce` object.
@@ -118,6 +119,7 @@ DebounceObject:Run() --> Expected Output: *nil, aka nonething*
 DebounceObject:IgnoreDebounce() --> Expected Output: Hi, I can only be ran every 5 seconds
 ```
 
+---
 ## Methods
 ### __wrap__ <sub style='color: #1589F0'>function
 This would automatically create an debounce object and returning you function that you can just run.
