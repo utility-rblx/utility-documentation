@@ -2,6 +2,9 @@
 
 [TOC]
 
+<div class="redBox">Only on the server</div>
+<div class="orangeBox">Must have HttpService enabled in your experience</div>
+
 __How to access this service__
 ```lua
 local Http = Utility:GetService('Http')
