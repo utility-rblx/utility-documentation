@@ -1,4 +1,10 @@
 site_name: Utilities Documents
+site_url: https://utility-rblx.github.io/utility-documentation/
+site_author: metamethods#0774 | InvalidData#0001
+site_description: Make your life much easier with this roblox module.
+
+repo_name: utility-rblx
+repo_url: https://github.com/utility-rblx/utility-documentation
 
 theme:
   name: material
@@ -8,7 +14,6 @@ theme:
 
     - navigation.tracking
     - navigation.tabs
-    - navigation.tabs.sticky
     - navigation.sections
     - navigation.expand
 
@@ -40,6 +45,8 @@ markdown_extensions:
 
   - attr_list
 
+  - admonition
+
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
@@ -48,3 +55,7 @@ markdown_extensions:
   - pymdownx.keys
   - pymdownx.mark
   - pymdownx.tilde
+  - pymdownx.details
+
+  
+  

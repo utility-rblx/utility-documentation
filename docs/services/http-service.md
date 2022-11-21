@@ -2,8 +2,10 @@
 
 [TOC]
 
-<div class="redBox">Only on the server</div>
-<div class="orangeBox">Must have HttpService enabled in your experience</div>
+<div class='grid' style='grid-template-columns: 50% 50%'>
+  <div class="redBox">Server Sided</div>
+  <div class="orangeBox">HttpsService is require to be enabled.</div>
+</div>
 
 __How to access this service__
 ```lua
@@ -240,6 +242,9 @@ Sends a `PostAsync` request with the data provided. Automatically URL converts t
 |||
 |<b style='color: #1589F0'>Variant</b>|Exact data returned from a `PostAsync` request.|
 
+!!! warning inline end
+    This code hasn't been __tested__ meaning we are unsure if it will __work!__ Any errors you find __please report to us.__
+
 __Code Example__
 ```lua
 local Http = Utility:GetService('Http')
@@ -263,6 +268,9 @@ Sends a `PostAsync` request with the data provided. Automatically JSON converts 
 |__Returns__|__Definition__|
 |||
 |<b style='color: #1589F0'>Variant</b>|Exact data returned from a `PostAsync` request.|
+
+!!! warning inline end
+    This code hasn't been __tested__ meaning we are unsure if it will __work!__ Any errors you find __please report to us.__
 
 __Code Example__
 ```lua
