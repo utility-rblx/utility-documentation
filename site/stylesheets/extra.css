@@ -33,7 +33,7 @@
 .grid {
   display: grid;
 
-  column-gap: 10px;
+  column-gap: 12px;
 
   height: 100%;
 }
