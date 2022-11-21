@@ -6,6 +6,11 @@
   <div class='greenBox'>Both client and server sided</div>
 </div>
 
+__How to access this service__
+```lua
+local Http = Utility:GetService('Debounce')
+```
+
 ---
 ## Debounce
 ### __Constructors__
