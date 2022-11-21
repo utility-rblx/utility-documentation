@@ -8,7 +8,7 @@
 
 __How to access this service__
 ```lua
-local Http = Utility:GetService('Debounce')
+local Debounce = Utility:GetService('Debounce')
 ```
 
 ---
