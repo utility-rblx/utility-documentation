@@ -3,9 +3,10 @@
 [TOC]
 
 <div class='grid' style='grid-template-columns: 100%'>
-  <div class='greenBox'>Both client to server side</div>
+  <div class='greenBox'>Both client and server side</div>
 </div>
 
+---
 ## Internal Functions
 ### __Checks__ <sub style='color: #1589F0'>Variant
 
@@ -20,6 +21,7 @@
 |||
 |<b style='color: #1589F0'>Variant</b>|The functions the module contains.|
 
+---
 ## Functions
 ### __GetServiceFile__ <sub style='color: #1589F0'>Instance
 Gets you the service file.
