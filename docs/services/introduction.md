@@ -30,6 +30,9 @@ put something here lol
 ### __GetServiceFile__ <sub style='color: #1589F0'>Instance
 Gets you the service file.
 
+!!! danger
+    This isn't recommended to be used for getting a file and requiring it. This is because it doesn't do any typechecking which helps prevent anything from making it fail of doing any task.
+
 |__Parameter(s)__|__Data__|
 |||
 |<b>service<sub style='color: #1589F0'>string</sub>|The service you are requesting.|
