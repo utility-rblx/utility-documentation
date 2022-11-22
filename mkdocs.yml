@@ -2,7 +2,7 @@
 site_name: Utilities Documents
 site_url: https://utility-rblx.github.io/utility-documentation/
 site_author: metamethods#0774 | InvalidData#0001
-site_description: Make your life much easier with this roblox module.
+site_description: Say goodbye to game:GetService, and say hello to utility:GetService
 
 # Repo Information
 repo_name: utility-rblx
