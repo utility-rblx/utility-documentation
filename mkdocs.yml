@@ -34,6 +34,8 @@ markdown_extensions:
       anchor_linenums: true
   - pymdownx.tasklist:
       custom_checkbox: true
+  - pymdownx.tabbed:
+      alternate_style: true
   - toc:
       permalink: true
 
@@ -54,6 +56,7 @@ markdown_extensions:
   - pymdownx.mark
   - pymdownx.tilde
   - pymdownx.details
+  - pymdownx.smartsymbols
 
 # Extra
 extra:
@@ -65,17 +68,8 @@ extra_css:
 # Documentation Layout
 nav:
     - Introduction: index.md
-    - Licence: licence.md
     - Credits: credits.md
-    - TODO: todo.md
+    - Licence: licence.md
 
-    - Services:
-        - services/introduction.md
-        - services/http-service.md
-        - services/debounce-service.md
-    
-    - Sub Services:
-        - sub-services/introduction.md
-        - Http Module:
-          - sub-services/http-module/discord-webhook.md
-        
+    - Documentation:
+        - documentation/introduction.md

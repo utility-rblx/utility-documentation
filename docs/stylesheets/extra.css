@@ -1,22 +1,22 @@
 :root > * {
-  --md-primary-fg-color:             rgb(24, 24, 24);
+  --md-primary-fg-color:             rgb(33, 37, 41); /* Top Bar Color */
   --md-primary-bg-color:             rgb(255, 255, 255);
 
   --md-default-fg-color--light:      rgb(255, 255, 255);
 
-  --md-default-bg-color:             rgb(20, 20, 20); /* Background Color */
+  --md-default-bg-color:             rgb(52, 58, 64); /* Background Color */
 
   --md-typeset-color:                rgba(255, 255, 255);
   --md-typeset-a-color:              rgb(255, 255, 255);
   --md-typeset-table-color:          rgba(238, 241, 245);
 
-  --md-footer-bg-color:              rgb(36, 36, 36);
-  --md-footer-bg-color--dark:        rgb(39, 39, 39);
+  --md-footer-bg-color:              rgb(33, 37, 41);
+  --md-footer-bg-color--dark:        rgb(33, 37, 41);
   
   /* Code Colors */
 
   --md-code-fg-color:                rgb(255, 255, 255);
-  --md-code-bg-color:                rgb(24, 24, 24);
+  --md-code-bg-color:                rgb(33, 37, 41);
 
   --md-code-hl-function-color:       rgb(220, 220, 170);
   --md-code-hl-number-color:         rgb(181, 206, 168);
@@ -30,40 +30,4 @@
   --md-code-hl-comment-color:        rgb(150, 150, 150);
 }
 
-.grid {
-  display: grid;
-
-  column-gap: 12px;
-
-  height: 100%;
-}
-
-.redBox {
-  padding: 5px;
-  background-color: rgba(255, 87, 87, 0.322);
-  font-weight: bold;
-  text-align: center;
-  text-shadow: rgb(139, 0, 0) 0px 0 5px;
-  color: rgb(255, 255, 255);
-  border-radius: 6px 6px 6px 6px;
-}
-
-.orangeBox {
-  padding: 5px;
-  background-color: rgba(255, 182, 87, 0.445);
-  font-weight: bold;
-  text-align: center;
-  text-shadow: rgb(139, 102, 0) 0px 0 5px;
-  color: rgb(255, 255, 255);
-  border-radius: 6px 6px 6px 6px;
-}
-
-.greenBox {
-  padding: 5px;
-  background-color: rgba(101, 255, 87, 0.445);
-  font-weight: bold;
-  text-align: center;
-  text-shadow: rgb(0, 139, 12) 0px 0 5px;
-  color: rgb(255, 255, 255);
-  border-radius: 6px 6px 6px 6px;
-}
+h1 { font-family: 'IBM Plex Sans', sans-serif; }
